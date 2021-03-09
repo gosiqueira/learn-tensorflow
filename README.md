@@ -1,8 +1,12 @@
 # TensorFlow Tutorials - Google Oficial Documentation
 
+## Description
+
 In this repo I re-implement the TensorFlow tutorials in order to master the concepts and tools available to implement deep neural networks to solve all sort of machine learning problems.
 If you want to check the oficial website click in [this link](https://www.tensorflow.org/learn).
+
 ---
+
 ## Summary
 
 Following the oficial documentation, I split the content in topics and sub topics such that:
@@ -88,8 +92,11 @@ Following the oficial documentation, I split the content in topics and sub topic
     4. Boosted trees model understanding
     5. Keras model estimator
     6. Multi-Worker training with Estimator
+
 ---
+
 ## Requirements
+
 * Python
 * NumPy
 * Pandas
