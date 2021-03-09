@@ -1,3 +1,14 @@
+"""
+Basic classification: Classify images of clothing
+---
+This guide trains a neural network model to classify images of clothing,
+like sneakers and shirts. It's okay if you don't understand all the details;
+this is a fast-paced overview of a complete TensorFlow program with the
+details explained as you go.
+---
+Original source: https://www.tensorflow.org/tutorials/keras/classification
+"""
+
 # TensorFlow and tf.keras
 import tensorflow as tf
 
