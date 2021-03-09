@@ -1,5 +1,5 @@
 # TensorFlow Tutorials - Google Oficial Documentation
----
+
 In this repo I re-implement the TensorFlow tutorials in order to master the concepts and tools available to implement deep neural networks to solve all sort of machine learning problems.
 If you want to check the oficial website click in [this link](https://www.tensorflow.org/learn).
 ---
@@ -95,4 +95,3 @@ Following the oficial documentation, I split the content in topics and sub topic
 * Pandas
 * Matplotlib
 * Tensorflow
----
