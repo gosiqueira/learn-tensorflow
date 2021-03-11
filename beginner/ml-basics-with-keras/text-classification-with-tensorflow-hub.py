@@ -31,7 +31,7 @@ import tensorflow_datasets as tfds
 
 
 def main():
-    print(f'Version: {tf.__version__}')
+    print(f'TensorFlow version: {tf.__version__}')
     print(f'Eager mode: {tf.executing_eagerly()}')
     print(f'Hub version: {hub.__version__}')
     print(f'GPU is {"available" if tf.config.list_physical_devices("GPU") else "NOT AVAILABLE"}')
