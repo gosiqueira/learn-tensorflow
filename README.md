@@ -9,7 +9,7 @@ If you want to check the oficial website click in [this link](https://www.tensor
 
 ## Summary
 
-Following the oficial documentation, I split the content in topics and sub topics such that:
+Following the official documentation, I split the content in topics and sub topics such that:
 - Beginner
   * ML basics with Keras
     1. Basic image classification
