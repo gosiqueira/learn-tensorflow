@@ -5,8 +5,6 @@
 In this repo I re-implement the TensorFlow tutorials in order to master the concepts and tools available to implement deep neural networks to solve all sort of machine learning problems.
 If you want to check the oficial website click in [this link](https://www.tensorflow.org/learn).
 
----
-
 ## Summary
 
 Following the official documentation, I split the content in topics and sub topics such that:
