@@ -101,4 +101,6 @@ Following the official documentation, I split the content in topics and sub topi
 * NumPy
 * Pandas
 * Matplotlib
+* Seaborn
 * Tensorflow
+* Tensorflow Hub
