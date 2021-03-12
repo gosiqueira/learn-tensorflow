@@ -100,4 +100,5 @@ Following the official documentation, I split the content in topics and sub topi
 * Matplotlib
 * Seaborn
 * Tensorflow
+* Tensorflow Docs
 * Tensorflow Hub
