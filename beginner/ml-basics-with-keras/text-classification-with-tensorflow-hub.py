@@ -23,11 +23,11 @@ Original source: https://www.tensorflow.org/tutorials/keras/text_classification_
 """
 
 import os
-import numpy as np
 
+import numpy as np
 import tensorflow as tf
-import tensorflow_hub as hub
 import tensorflow_datasets as tfds
+import tensorflow_hub as hub
 
 
 def main():

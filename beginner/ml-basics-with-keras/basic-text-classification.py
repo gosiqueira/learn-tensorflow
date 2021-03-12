@@ -10,17 +10,16 @@ tag for a programming question on Stack Overflow.
 Original source: https://www.tensorflow.org/tutorials/keras/text_classification
 """
 
-import matplotlib.pyplot as plt
 import os
 import re
 import shutil
 import string
-import tensorflow as tf
 
-from tensorflow.keras import layers
-from tensorflow.keras import losses
-from tensorflow.keras import preprocessing
-from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.keras import layers, losses, preprocessing
+from tensorflow.keras.layers.experimental.preprocessing import \
+    TextVectorization
 
 
 def custom_standardization(input_data):
