@@ -91,8 +91,6 @@ Following the official documentation, I split the content in topics and sub topi
     5. Keras model estimator
     6. Multi-Worker training with Estimator
 
----
-
 ## Requirements
 
 * Python
