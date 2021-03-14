@@ -75,7 +75,7 @@ def main():
     tuner.search(img_train, label_train, epochs=50, validation_split=0.2, callbacks=[stop_early])
 
     # Get the optimal hyperparameters
-    best_hps = tuner.get_best_hyperparameters(num_trails=1)[0]
+    best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
 
     print(f"""
         The hyperparameter search is complete. The optimal number of units in the first
@@ -103,7 +103,7 @@ def main():
     hypermodel = tuner.hypermodel.build(best_hps)
 
     # Retrain the model
-    hypermodel.hit(img_test, label_test, epoch=best_epoch)
+    hypermodel.fit(img_test, label_test, epochs=best_epoch)
 
     eval_result = hypermodel.evaluate(img_test, label_test)
     print(f'[test loss, test accuracy]: {eval_result}')
