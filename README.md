@@ -104,3 +104,4 @@ Following the official documentation, I split the content in topics and sub topi
 * Tensorflow
 * Tensorflow Docs
 * Tensorflow Hub
+* TensorFlow Text
