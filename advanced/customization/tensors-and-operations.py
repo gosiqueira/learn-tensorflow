@@ -19,7 +19,7 @@ import tensorflow as tf
 
 def time_matmul(x):
     start = time.time()
-    for loop in range(10):
+    for _ in range(10):
         tf.matmul(x, x)
 
     result = time.time() - start
