@@ -36,8 +36,8 @@ Following the official documentation, I split the content in topics and sub topi
     2. Custom layers
     3. Custom training: walkthrough
   * Distributed training
-    1. Distributed trainign with Keras
-    2. Custom trainign loops
+    1. Distributed training with Keras
+    2. Custom training loops
     3. Multi-worker training with Keras
     4. Parameter server trainer
     5. Save and load
